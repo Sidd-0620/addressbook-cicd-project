@@ -28,7 +28,7 @@ pipeline{
         }
         stage("deploy the project on tomcat"){
             steps{
-                sh "sudo mv /var/lib/jenkins/workspace/pipeline/target/addressbook.war /home/ubuntu/apache-tomcat-9.0.112/webapps/"
+                sh "sudo mv /var/lib/jenkins/workspace/L2/target/addressbook.war /home/ubuntu/apache-tomcat-9.0.112/webapps/"
             }
         }
     }
